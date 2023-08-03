@@ -51,7 +51,6 @@ Console.WriteLine("Введите размер массива");
 int size = int.Parse(Console.ReadLine()!);
 
 string[] arr = new string[size];
-;
 Fill(arr);
 PrintArr(arr);
 string[] arr2 = SortArr(arr);
